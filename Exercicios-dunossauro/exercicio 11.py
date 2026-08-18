@@ -6,7 +6,19 @@
 #O terceiro elevado ao cubo.
 
 
-inteiro1 = int(input("Digite um número inteiro: "))
-inteiro2 = int(input("Digite outro número inteiro: "))
+int1 = int(input("Digite um número inteiro: "))
+int2 = int(input("Digite outro número inteiro: "))
 real = float(input("Digite um número real: "))
+
+primeiro = int1 * 2 * int2 / 2
+segundo = int2 / 2
+terceiro = real ** 3
+
+soma = int1 * 3 + real
+
+print(primeiro)
+print(soma)
+print(terceiro)
+
+
 
